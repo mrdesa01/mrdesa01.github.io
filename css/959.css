@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+#Horarios_bar{
+	left:-300px;
+}
+#Contenido{
+	margin-left:10%;
+}
+#top-player{
+	display:none;
+}
+
+#playButton{
+	left:15%;
+	margin-right:25%;
+	visibility:hidden;
+	
+}
+#playButton_app{
+    position:absolute;
+	margin:auto;
+	bottom:0;
+	left:0;
+	top:-38px;
+	right:0;
+	border:none;
+	height:40px;
+	width:40px;
+    background-color:transparent;
+	background-image: url('../img/play_black.png');
+	background-size:40px;
+	background-repeat:no-repeat;
+	  
+}
+#defaultBar{
+	/*left:30%;*/
+	display:none;
+}
+#currentTime{
+    left:60%;
+	margin-right:5%;
+	display:none;
+}
+#fullDuration{
+	display:none;
+}
+#muteButton{
+	display:none;
+}
+#contenido_jax{
+	top:20px;
+	margin-left:30px;
+
+}
+#menu_app{
+	position:fixed;
+	bottom:0px;
+	left:0px;
+	background-color:#FFF;
+	height:90px;
+	width:100%;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+li {
+    float: left;
+	padding-left:15px;
+}
+#menu_app_left{
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+	background-color:#CCC;
+    color: white;
+}
+#menu_app{
+	color:#999;
+}
+#menu_app_left{
+	visibility:visible;
+}
+#menu_app_right{
+	visibility:visible;
+}
+#msj_chat{
+	position:fixed;
+	bottom:5px;
+	left:40%;
+
+}
+#menu_app_right{
+position:fixed;
+right:0;
+width:150px;
+
+}
+#horarios div{
+	 background-color:#333;
+	 float:none;
+	 width:100%;
+	 margin-bottom:20px;
+	 margin-left:0px;
+}
+ #horarios div div{
+	 position:absolute;
+	 top:220px;
+	 left:310px;
+	 background-color:#3CC;
+	 color:#fff;
+	 height:10px;
+	 width:100px;
+	 border-radius:20px;
+ }
+
+
+
+

@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+#menu_app_left{
+	visibility:hidden;
+}
+#menu_app_right{
+	visibility:hidden;
+}
+div#overlay { /*el icono del menu*/
+	display: none;
+	z-index: 100;
+	background-color:#fff;
+	/*background-image:url('../img/ceibaoficial.jpg') ;*/
+    position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	transition:ease-out 0.5s;
+	/*opacity:0.8;*/
+}
+#bt-cerrar{
+	position:fixed;
+	height:50px;
+	width:50px;
+	background-color:transparent;
+	top:5px;
+	right:10px;
+	border-style:none;
+}
+#submit{
+	position:fixed;
+	height:60px;
+	width:60px;
+	bottom:40px;
+	right:10px;
+	border-radius:100%;
+	border-style:none;
+	background: rgba(0,219,219,1);
+    background: -moz-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,219,219,1)), color-stop(100%, rgba(0,95,158,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+    background: linear-gradient(135deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbdb', endColorstr='#005f9e', GradientType=1 );
+	
+}
+body{
+/*max-width:1000px;*/
+font-family: customfont;
+background-color:#FFF;
+background-color:#EAEAEA;
+/*background: rgba(0,219,219,1);
+background: -moz-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,219,219,1)), color-stop(100%, rgba(0,95,158,1)));
+background: -webkit-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+background: linear-gradient(135deg, rgba(0,219,219,1) 0%, rgba(0,95,158,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dbdb', endColorstr='#005f9e', GradientType=1 );*/
+}
+@font-face {
+ font-family: customfont;
+ src: url("../Roboto-Light.ttf"); /* For most other browsers */
+}
+@font-face {
+ font-family: fontdelgado;
+ src: url("../ClementePDaa-Hairline.ttf"); /* For most other browsers */
+}
+#Blue{
+opacity:0.1;
+}
+#Chat{
+	position:fixed;
+	background-color:#333;
+	top:0;
+	right:0;
+	height:100%;
+	width:300px;	
+}
+#Horarios_bar{
+	position:fixed;
+	background-color:#333;
+	top:0;
+	left:0;
+	height:100%;
+	width:280px;
+	box-shadow: 13px 0 13px -12px #333;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+	z-index:2;	
+}
+#logo{
+	position:absolute;
+	top:20px;
+	left:50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:280px;
+   background-color:#333;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+	background-color:#222323;
+    color: white;
+}
+#Horarios_op{
+	position:absolute;
+	top:200px;
+}
+
+#contenido_jax{
+	/*background-color:#3CF;*/
+	top:70px;
+	position:relative;
+	height:100vh;
+    min-height:100vh;
+	margin-left:300px;
+	margin-right:5%;
+
+}
+/*************************************inicio.php***********************************************/
+#tag{
+	position:relative;
+	top:0px;
+	background-color:#34b8cf;
+	color:#fff;
+	min-height:200px;
+	min-width:200px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#android_app {
+	/*background-color:#3FF;*/
+	height:50px;
+	float:left;
+	padding:15px;
+ 
+}
+
+#tag h1 ,p{
+	margin:20px;
+	margin-top:20px;
+}
+#publicidad{
+	position:relative;
+	top:20px;
+	background-color:#fff;
+	min-height:400px;
+	margin-left:2px;
+	margin-right:2px;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+#mas{
+	position:absolute;
+	background-color:#34b8cf;
+	color:#FFF;
+	height:60px;
+	width:60px;
+	margin: auto;
+    right: 10px;
+    bottom: 20px;
+    border-radius:100%;
+    border-style:none;
+	
+	
+}
+/************************************* publicidad.php***********************************************/
+
+#publicidad_banner1 div{
+	width:100%;
+	margin-top:20px;
+    padding-bottom: 5%;
+    background-color:#FFF;
+    padding-top:6%;
+    border-bottom: 1px dotted #ccc;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+ #publicidad_banner1 div img{
+	 margin-left:30px;
+    display: inline-block;
+    vertical-align: top;
+ }
+ #publicidad_banner1 span{
+ display: inline-block;
+    margin-left:25px;
+	margin-right:25px;
+    /*background-color: red; */
+ }
+ #publicidad_banner1 h1{
+	 margin-left:30px;
+	 
+
+ }
+ /************************************* Horarios.php***********************************************/
+ 
+ #horarios div{
+	 position:relative;
+	width:35%;
+    padding-bottom: 5%;
+	margin-left:20px;
+	margin-bottom:20px;
+    background-color:#333;
+	color:#fff;
+    border-bottom: 1px dotted #ccc;
+	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	float:left;
+ }
+ #horarios div div{
+	 position:absolute;
+	 bottom:0;
+	 background-color:#3CC;
+	 color:#fff;
+	 height:10px;
+	 width:100px;
+	 border-radius:20px;
+ }
+  #horarios div div img{
+	  position:absolute;
+	  top:5px;
+	  left:2px;
+ }
+  #horarios div div h5{
+	  position:absolute;
+	  top:-15px;
+	  left:30px;
+ }
+  #horarios span{
+ display: inline-block;
+    margin-left:25px;
+	margin-right:25px;
+    /*background-color: red; */
+ }
+ #horarios h1{
+	 padding-left:30px;
+ }
